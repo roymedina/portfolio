@@ -569,7 +569,7 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 900px;
+    width: 750px;
     max-width: 75%;
     height: 100%;
     -webkit-box-orient: vertical;
@@ -581,7 +581,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 @media (max-width: 1180px) {
@@ -594,6 +594,11 @@ body {
     position: relative;
     height: 495px
 }
+
+.intro--banner img {
+    z-index: -1
+}
+
 
 .intro--banner::before {
     content: "";
