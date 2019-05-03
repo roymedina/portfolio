@@ -255,7 +255,7 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    box-shadow: 0 0 45px 5px rgba(0, 0, 0, 0.85);
+/*    box-shadow: 0 0 45px 5px rgba(0, 0, 0, 0.85);*/
     overflow: hidden
 }
 
@@ -549,6 +549,7 @@ body {
 }
 
 .side-nav li.is-active span {
+    font-size: 21px;
     opacity: 1;
     visibility: visible;
     -webkit-transition: opacity .4s ease-in-out;
@@ -1503,7 +1504,7 @@ body {
     -webkit-transform: translateZ(0) translateX(0) rotateY(0deg);
     transform: translateZ(0) translateX(0) rotateY(0deg);
     min-height: 100%;
-    outline: 30px solid #000;
+/*    outline: 30px solid #000;*/
     -webkit-transition: -webkit-transform .4s;
     transition: -webkit-transform .4s;
     transition: transform .4s;
@@ -1531,13 +1532,13 @@ body {
 .effect-rotate-left--animate .container {
     -webkit-transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
     transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
-    outline: 30px solid #000
+/*    outline: 30px solid #000*/
 }
 
 .outer-nav {
     position: absolute;
     top: 50%;
-    left: 55%;
+    left: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     -webkit-transform-style: preserve-3d;
@@ -1655,4 +1656,55 @@ h2 {
 p {
     font-size: 21px;
     line-height: 24px;
+}
+
+/* Overlay */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #EFEFEF;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
 }
