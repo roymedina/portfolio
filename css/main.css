@@ -741,10 +741,13 @@ body {
     .intro--options > a:last-child {
         margin-bottom: 0
     }
-    
-        
+         
     br {
-        display: none
+        display: none;
+    }
+    
+    .intro p {
+        text-align: justify;
     }
 }
 
