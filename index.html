@@ -28,15 +28,47 @@
     <meta name="keywords" content="graphic, design, portfolio, branding, art">
 
     <meta name="author" content="Bucky Maler">
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main%20-%20Copy.css">
 
     <link rel="stylesheet" href="https://use.typekit.net/rup1stn.css">
 
 </head>
 
 <body>
-
+    
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+    	   <div id="colorlib-page">
+		<div id="colorlib-work">
+			<div class="container">
+				<div class="row row-padded-bottom">
+					<div class="col-md-7 animate-box">
+						<img class="img-responsive" src="img/03/weathervane-business-cards.jpg" alt="business cards">
+						<img class="img-responsive" src="img/03/weathervane-square-tent.jpg" alt="tent">
+						<img class="img-responsive" src="img/03/weathervane-rollup-sign.jpg" alt="sign">
+                        <img class="img-responsive" src="img/03/weathervane-polo-shirt.jpg" alt="golf shirt">
+                        <img class="img-responsive" src="img/03/weathervane-golf-cart.jpg" alt="golf cart">
+                        <img class="img-responsive" src="img/03/weathervane-desktop.jpg" alt="desktop site">
+                        <img class="img-responsive" src="img/03/weathervane-mobile.jpg" alt="mobile site">
+					</div>
+					<div class="col-md-3 col-md-push-1 animate-box">
+						<div class="work-detail">
+							<h2>Weathervane</h2>
+<!--							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+							<p><a href="index.html" class="btn btn-primary">Back</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+        </div>
+    </div>
+    
     <div class="perspective effect-rotate-left">
 
         <div class="container">
@@ -127,7 +159,7 @@
 
                                         <li class="slider--item slider--item-right">
 
-                                            <a href="work-weathervane.html">
+                                            <span onclick="openNav()">
 
                                                 <div class="slider--item-image">
 
@@ -139,7 +171,7 @@
 
                                                 <p class="slider--item-description">Branding</p>
 
-                                            </a>
+                                            </span>
 
                                         </li>
 
@@ -280,6 +312,18 @@
     </script>
 
     <script src="js/functions-min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
 
 </body>
 
