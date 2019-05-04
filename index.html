@@ -15,7 +15,7 @@
       gtag('config', 'UA-139521827-1');
     </script>
 
-    <title>Roy Medina | Designer</title>
+    <title>Roy Medina | Design</title>
 
     <meta charset="utf-8">
 
@@ -39,7 +39,7 @@
 
 <body>
     
-    <div id="myNav" class="overlay">
+    <div id="myNavWeathervane" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
     	   <div id="colorlib-page">
@@ -58,6 +58,30 @@
 					<div class="col-md-3 col-md-push-1 animate-box">
 						<div class="work-detail">
 							<h2>Weathervane</h2>
+<!--							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+        </div>
+    </div>
+    
+    <div id="myNavMisc" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMisc()">&times;</a>
+        <div class="overlay-content">
+    	   <div id="colorlib-page">
+		<div id="colorlib-work">
+			<div class="container">
+				<div class="row row-padded-bottom">
+					<div class="col-md-7 animate-box">
+						<img class="img-responsive" src="img/06/packaging.jpg" alt="cigarette packaging">
+						<img class="img-responsive" src="img/06/art-direction-poster.jpg" alt="glass straws poster">
+					</div>
+					<div class="col-md-3 col-md-push-1 animate-box">
+						<div class="work-detail">
+							<h2>Miscellaneous</h2>
 <!--							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
 						</div>
 					</div>
@@ -88,7 +112,7 @@
 
                         <div class="header--nav-toggle">
 
-                            <span></span>
+                            Menu
 
                         </div>
 
@@ -130,7 +154,7 @@
 
                                                 </div>
 
-                                                <p class="slider--item-title">Clover</p>
+                                                <h2 class="slider--item-title">Clover</h2>
 
                                                 <p class="slider--item-description">Branding</p>
 
@@ -140,24 +164,6 @@
 
                                         <li class="slider--item slider--item-center">
 
-                                            <a href="#0">
-
-                                                <div class="slider--item-image">
-
-                                                    <img src="img/02/hooked-thumb.jpg" alt="">
-
-                                                </div>
-
-                                                <p class="slider--item-title">Hooked</p>
-
-                                                <p class="slider--item-description">Branding</p>
-
-                                            </a>
-
-                                        </li>
-
-                                        <li class="slider--item slider--item-right">
-
                                             <span onclick="openNav()">
 
                                                 <div class="slider--item-image">
@@ -166,7 +172,25 @@
 
                                                 </div>
 
-                                                <p class="slider--item-title">Weathervane</p>
+                                                <h2 class="slider--item-title">Weathervane</h2>
+
+                                                <p class="slider--item-description">Branding</p>
+
+                                            </span>
+
+                                        </li>
+                                        
+                                        <li class="slider--item slider--item-right">
+
+                                            <span>
+
+                                                <div class="slider--item-image">
+
+                                                    <img src="img/02/hooked-thumb.jpg" alt="">
+
+                                                </div>
+
+                                                <h2 class="slider--item-title">Hooked</h2>
 
                                                 <p class="slider--item-description">Branding</p>
 
@@ -184,11 +208,29 @@
 
                                                 </div>
 
-                                                <p class="slider--item-title">J.Crew</p>
+                                                <h2 class="slider--item-title">J.Crew</h2>
 
                                                 <p class="slider--item-description">Interactive</p>
 
                                             </a>
+
+                                        </li>
+                                        
+                                        <li class="slider--item">
+
+                                            <span onclick="openMisc()">
+
+                                                <div class="slider--item-image">
+
+                                                    <img src="img/06/my-logo-on-photo-by-brandi-redd-122054-unsplash.jpg" alt="Miscellaneous">
+
+                                                </div>
+
+                                                <h2 class="slider--item-title">Miscellaneous</h2>
+
+                                                <p class="slider--item-description">Art Direction, Packaging</p>
+
+                                            </span>
 
                                         </li>
 
@@ -238,7 +280,9 @@
                                     
                                     <h2>About Me</h2>
 
-                                    <p>Basketball enthusiast, aspiring traveler, <br>sci-fi fan, and soon-to-be TXST communication <br>design grad. Making stuff at the intersection <br>of minimalism and function to craft meaningful <br>ideas that endure. I'm fueled by lime Topo <br>Chico, hip-hop music, and tortilla chips.</p>
+                                    <p>Basketball enthusiast, aspiring traveler, sci-fi fan, and <br>soon-to-be TXST communication design grad. Making <br>stuff at the intersection of minimalism and function to <br>craft meaningful ideas that endure. I'm fueled by lime <br>Topo Chico, hip-hop music, and tortilla chips.</p>
+                                    
+                                    <p>Have a project or idea you'd like to explore?</p>
                                     
                                     <p>Let’s chat.</p>
 
@@ -253,12 +297,14 @@
                         <li class="l-section section">
 
                             <div class="contact">
-
+                                                                
                                 <div class="contact--lockup">
-
+                                                                        
                                     <div class="modal">
 
                                         <div class="modal--information">
+                                            
+                                            <h2>Contact</h2>
 
                                         </div>
 
@@ -318,11 +364,21 @@
     
     <script>
         function openNav() {
-          document.getElementById("myNav").style.height = "100%";
+          document.getElementById("myNavWeathervane").style.height = "100%";
         }
 
         function closeNav() {
-          document.getElementById("myNav").style.height = "0%";
+          document.getElementById("myNavWeathervane").style.height = "0%";
+        }
+    </script>
+    
+        <script>
+        function openMisc() {
+          document.getElementById("myNavMisc").style.height = "100%";
+        }
+
+        function closeMisc() {
+          document.getElementById("myNavMisc").style.height = "0%";
         }
     </script>
 
