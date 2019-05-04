@@ -557,7 +557,7 @@ body {
 
 .side-nav li.is-active::before {
     left: -33px;
-    color: #EFEFEF
+    color: #FF5500
 }
 
 /*Page 1 Starts*/
