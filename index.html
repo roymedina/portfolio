@@ -68,6 +68,35 @@
         </div>
     </div>
     
+     <div id="myNavHook" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeHook()">&times;</a>
+        <div class="overlay-content">
+    	   <div id="colorlib-page">
+		<div id="colorlib-work">
+			<div class="container">
+				<div class="row row-padded-bottom">
+					<div class="col-md-7 animate-box">
+						<img class="img-responsive" src="img/02/hooked-mark-yellow.jpg" alt="brandmark">
+						<img class="img-responsive" src="img/02/hooked-mark-grey.jpg" alt="brandmark">
+                        <img class="img-responsive" src="img/02/hooked-logo.jpg" alt="logo">
+                        <img class="img-responsive" src="img/02/hooked-pattern.jpg" alt="pattern">                                                
+                        <img class="img-responsive" src="img/02/hooked-business-cards.jpg" alt="business cards">
+                        <img class="img-responsive" src="img/02/hooked-menu.jpg" alt="menu and notebook">
+
+                    </div>
+					<div class="col-md-3 col-md-push-1 animate-box">
+						<div class="work-detail">
+							<h2>Hooked</h2>
+<!--							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+        </div>
+    </div>
+    
     <div id="myNavMisc" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeMisc()">&times;</a>
         <div class="overlay-content">
@@ -182,7 +211,7 @@
                                         
                                         <li class="slider--item slider--item-right">
 
-                                            <span>
+                                            <span onclick="openHook()">
 
                                                 <div class="slider--item-image">
 
@@ -280,7 +309,7 @@
                                     
                                     <h2>About Me</h2>
 
-                                    <p>Basketball enthusiast, aspiring traveler, sci-fi fan, and <br>soon-to-be TXST communication design grad. Making <br>stuff at the intersection of minimalism and function to <br>craft meaningful ideas that endure. I'm fueled by lime <br>Topo Chico, hip-hop music, and tortilla chips.</p>
+                                    <p>Basketball enthusiast, aspiring traveler, sci-fi fan, <br>and soon-to-be TXST communication design grad. <br>Making stuff at the intersection of minimalism and <br>function to craft meaningful ideas that endure. I'm <br>fueled by Lime Topo Chico, music, and tortilla chips.</p>
                                     
                                     <p>Have a project or idea you'd like to explore?</p>
                                     
@@ -372,13 +401,23 @@
         }
     </script>
     
-        <script>
+    <script>
         function openMisc() {
           document.getElementById("myNavMisc").style.height = "100%";
         }
 
         function closeMisc() {
           document.getElementById("myNavMisc").style.height = "0%";
+        }
+    </script>
+    
+    <script>
+        function openHook() {
+          document.getElementById("myNavHook").style.height = "100%";
+        }
+
+        function closeHook() {
+          document.getElementById("myNavHook").style.height = "0%";
         }
     </script>
 
