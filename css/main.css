@@ -238,7 +238,7 @@ body {
 }
 
 body {
-    background-color: #ebebdc;
+    background-color: #efefef;
     font-family: neue-haas-grotesk-text, sans-serif;
     font-weight: 400;
     font-size: 21px;
@@ -937,7 +937,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #ebebdc;
+    background-color: #efefef;
     border-radius: 50%;
     cursor: pointer
 }
@@ -1254,7 +1254,7 @@ body {
 }
 
 .contact--lockup .modal--options a:hover {
-    color: #ebebdc;
+    color: #efefef;
     transition: 0.3s
 }
 
@@ -1689,7 +1689,7 @@ p {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #ebebdc;
+  background-color: #efefef;
   overflow-x: hidden;
   transition: 0.4s;
 }
