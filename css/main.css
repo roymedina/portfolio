@@ -67,7 +67,7 @@ dfn {
 
 mark {
     background: #ff0;
-    color: #1F1F21
+    color: #191919
 }
 
 small {
@@ -238,14 +238,20 @@ body {
 }
 
 body {
-    background-color: #D2D2D2;
+    background-color: #ebebdc;
     font-family: neue-haas-grotesk-text, sans-serif;
     font-weight: 400;
     font-size: 21px;
     line-height: 24px;
-    color: #1F1F21;
+    color: #191919;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%
+        
+/*
+    ebebdc tan
+    eb1e23 red
+    191919 black
+*/
 }
 
 .l-viewport {
@@ -288,7 +294,7 @@ body {
     width: 2px;
     height: 70%;
     max-height: 750px;
-/*    background-color: #1F1F21;*/
+/*    background-color: #191919;*/
 /*        opacity: .5;*/
     z-index: 10
 }
@@ -378,7 +384,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     text-decoration: none;
-    color: #1F1F21;
+    color: #191919;
 }
 
 .header--nav-toggle {
@@ -412,7 +418,7 @@ body {
     position: relative;
     width: 30px;
     height: 2px;
-    background-color: #1F1F21
+    background-color: #191919
 }
 
 .header--nav-toggle::before {
@@ -435,7 +441,7 @@ body {
     padding: 0 20px;
     line-height: 30px;
     text-decoration: none;
-    color: #1F1F21;
+    color: #191919;
     /*    background-color: #0f33ff;*/
     border: none;
     opacity: 0;
@@ -456,7 +462,7 @@ body {
 }
 
 .cta {
-    color: #1F1F21;
+    color: #191919;
 }
 
 @media (max-width: 767px) {
@@ -491,7 +497,7 @@ body {
 .side-nav > li {
     position: relative;
     top: -5px;
-    color: #1F1F21;
+    color: #191919;
     font-size: 6px;
     cursor: pointer
 }
@@ -500,7 +506,7 @@ body {
     position: relative;
     top: 3px;
 /*    left: 10px;*/
-    color: #1F1F21;
+    color: #191919;
     font-size: 14px;
     opacity: 0;
     visibility: hidden
@@ -510,7 +516,7 @@ body {
     position: absolute;
     top: 3px;
     left: 10px;
-    color: #1F1F21;
+    color: #191919;
     font-size: 14px;
 }
 
@@ -535,7 +541,7 @@ body {
 }
 
 .side-nav li.is-active {
-    color: #FF5500;
+    color: #eb1e23;
     -webkit-transition: color .4s ease-in-out;
     transition: color .4s ease-in-out
 }
@@ -551,7 +557,7 @@ body {
 .side-nav li.is-active::before {
     font-size: 14px;
     left: -23px;
-    color: #1F1F21
+    color: #191919
 }
 
 /*Page 1 Starts*/
@@ -562,8 +568,8 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 750px;
-    max-width: 75%;
+    width: 960px;
+    max-width: 80%;
     height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -600,7 +606,7 @@ body {
     left: -15px;
     right: 0;
     height: 2px;
-    background-color: #1F1F21
+    background-color: #191919
 }
 
 /*
@@ -611,7 +617,7 @@ body {
     left: 0;
     width: 30px;
     height: 4px;
-    background-color: #1F1F21
+    background-color: #191919
 }
 */
 
@@ -629,7 +635,7 @@ body {
     left: 23px;
     right: 0;
     height: 100%;
-    background-color: #1F1F21;
+    background-color: #191919;
     z-index: -1;
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out
@@ -648,7 +654,7 @@ body {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #FF5500
+    fill: #eb1e23
 }
 
 .intro--banner img {
@@ -674,13 +680,13 @@ body {
 .intro--options > a {
     max-width: 250px;
     text-decoration: none;
-    color: #1F1F21;
+    color: #191919;
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out
 }
 
 .intro--options > a:hover {
-    color: #1F1F21
+    color: #191919
 }
 
 .intro--options p {
@@ -836,12 +842,20 @@ body {
 
 .work--lockup .slider--item a {
     text-decoration: none;
-    color: #1F1F21
+    color: #191919
 }
 
 .work--lockup .slider--item-title {
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 5px
+}
+
+.slider--item-left .slider--item-title {
+    display: none
+}
+
+.slider--item-right .slider--item-title {
+    display: none
 }
 
 .work--lockup .slider--item-description {
@@ -888,7 +902,7 @@ body {
 }
 
 .work--lockup .slider--item-center a {
-    color: #1F1F21
+    color: #191919
 }
 
 .work--lockup .slider--item-center .slider--item-title {
@@ -923,7 +937,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #D2D2D2;
+    background-color: #ebebdc;
     border-radius: 50%;
     cursor: pointer
 }
@@ -931,7 +945,7 @@ body {
 .work--lockup .slider--next svg,
 .work--lockup .slider--prev svg {
     width: 20px;
-    fill: #1F1F21
+    fill: #191919
 }
 
 .work--lockup .slider--next {
@@ -1028,7 +1042,7 @@ body {
 .about--banner a {
     padding: 5px 17px 5px 0;
     text-decoration: none;
-    color: #1F1F21;
+    color: #191919;
     background-color: transparent
 }
 
@@ -1040,7 +1054,7 @@ body {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #1F1F21;
+    fill: #191919;
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out
 }
@@ -1071,8 +1085,8 @@ body {
     width: 150px;
     height: 75px;
     text-decoration: none;
-    color: #1F1F21;
-    border: 10px solid #1F1F21;
+    color: #191919;
+    border: 10px solid #191919;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
@@ -1183,7 +1197,7 @@ body {
 .contact--lockup .modal {
     padding: 45px 45px;
     text-align: center;
-/*        background-color: #D2D2D2;*/
+/*        background-color: #eb1e23;*/
 /*        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.75)*/
 }
 
@@ -1192,7 +1206,7 @@ body {
     display: block;
     margin: 14px 0;
     text-decoration: none;
-    color: #1F1F21;
+    color: #191919;
     font-size: 14px
 }
 
@@ -1212,22 +1226,23 @@ body {
 }
 
 .contact--lockup .modal--options li:nth-child(1) {
-    border: 2px solid #1F1F21
+    border: 2px solid #191919
 }
 
 .contact--lockup .modal--options li:nth-child(2) {
-    border: 2px solid #1F1F21
+    border: 2px solid #191919
 }
 
 .contact--lockup .modal--options li:nth-child(3) {
     margin-bottom: 0;
-    border: 2px solid #1F1F21
+    border: 2px solid #191919
 }
 
 
 .contact--lockup .modal--options li:hover {
-    border: 2px solid #1F1F21;
-    background-color: #1F1F21
+    border: 2px solid #191919;
+    background-color: #191919;
+    transition: 0.3s
 }
 
 .contact--lockup .modal--options a {
@@ -1235,11 +1250,12 @@ body {
     width: 100%;
     padding: 8px 0;
     text-decoration: none;
-    color: #1F1F21;
+    color: #191919;
 }
 
 .contact--lockup .modal--options a:hover {
-    color: #D2D2D2
+    color: #ebebdc;
+    transition: 0.3s
 }
 
 /*Page 5 Starts*/
@@ -1286,7 +1302,7 @@ body {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #1F1F21
+    color: #191919
 }
 
 .work-request input[type="submit"] {
@@ -1294,8 +1310,8 @@ body {
     max-width: 100%;
     line-height: 50px;
     font-size: 21px;
-    background-color: #1F1F21;
-    color: #D2D2D2;
+    background-color: #191919;
+    color: #eb1e23;
     border: none;
     border-radius: 0
 }
@@ -1355,7 +1371,7 @@ body {
     line-height: 50px;
     font-size: 21px;
     text-align: center;
-    border: 2px solid #1F1F21;
+    border: 2px solid #191919;
     cursor: pointer;
     -webkit-transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
     transition: background-color .2s ease-in-out, border-color .2s ease-in-out
@@ -1365,7 +1381,7 @@ body {
     position: relative;
     left: -5px;
     width: 0;
-    fill: #1F1F21;
+    fill: #191919;
     -webkit-transition: width .2s ease-in-out;
     transition: width .2s ease-in-out
 }
@@ -1375,9 +1391,9 @@ body {
 }
 
 .work-request--options input[type="checkbox"]:checked + label {
-    background-color: #1F1F21;
-    border-color: #1F1F21;
-    color: #1F1F21
+    background-color: #191919;
+    border-color: #191919;
+    color: #191919
 }
 
 .work-request--options input[type="checkbox"]:checked + label svg {
@@ -1411,7 +1427,7 @@ body {
     padding: 0 0 5px 0;
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid #1F1F21;
+    border-bottom: 2px solid #191919;
     border-radius: 0
 }
 
@@ -1509,7 +1525,7 @@ body {
     -webkit-transform: translateZ(0) translateX(0) rotateY(0deg);
     transform: translateZ(0) translateX(0) rotateY(0deg);
     min-height: 100%;
-/*    outline: 30px solid #1F1F21;*/
+/*    outline: 30px solid #191919;*/
     -webkit-transition: -webkit-transform .4s;
     transition: -webkit-transform .4s;
     transition: transform .4s;
@@ -1537,13 +1553,13 @@ body {
 .effect-rotate-left--animate .container {
     -webkit-transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
     transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
-    outline: 30px solid #1F1F21
+    outline: 30px solid #191919
 }
 
 .outer-nav {
     position: absolute;
+    left: 50%;
     top: 50%;
-    left: 60%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     -webkit-transform-style: preserve-3d;
@@ -1599,7 +1615,7 @@ body {
 }
 
 .outer-nav > li:hover {
-    color: #FF5500;
+    color: #eb1e23;
 }
 
 .outer-nav > li.is-active::before {
@@ -1651,17 +1667,13 @@ h1 {
 h2 {
     margin: 0 0 20px 0;
     font-weight: 700;
-    font-size: 21px;
-    line-height: 24px;
-    text-align: center
+    font-size: 38px;
+    line-height: 41px;
+    text-align: left
 }
 
 p {
     font-weight: 400;
-}
-
-.intro p {
-    max-width: 630px;
 }
 
 .outer-nav, .intro h2 {
@@ -1677,9 +1689,9 @@ p {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #D2D2D2;
+  background-color: #ebebdc;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .overlay-content {
