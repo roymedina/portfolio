@@ -66,7 +66,7 @@ dfn {
 }
 
 mark {
-    background: #ff0;
+    background: #ff5500;
     color: #191919
 }
 
@@ -210,15 +210,15 @@ th {
 }
 
 ::-moz-selection {
-    background: #FFF498
+    background: #ff5500
 }
 
 ::selection {
-    background: #FFF498
+    background: #ff5500
 }
 
 ::-moz-selection {
-    background: #FFF498
+    background: #ff5500
 }
 
 img::-moz-selection {
@@ -234,7 +234,7 @@ img::-moz-selection {
 }
 
 body {
-    -webkit-tap-highlight-color: #FFF498
+    -webkit-tap-highlight-color: #ff5500
 }
 
 body {
@@ -1685,60 +1685,65 @@ h3 {
 p {
     font-weight: 400;
     text-align: left;
-    margin: 0;
+    margin: 0
 }
 
 /* Overlay */
 
 .overlay {
-  height: 0;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #efefef;
-  overflow-x: hidden;
-  transition: 0.4s;
+    /*  height: 0;*/
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #efefef;
+    overflow-x: hidden;
+    transition: 0.4s;
 }
 
 .overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+    padding: 0px 8px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
 
+/*
 .overlay a:hover, .overlay a:focus {
   color: #f1f1f1;
 }
+*/
 
 .overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
 }
 
 .work-detail {
-    margin-bottom: 155px;
+    margin-bottom: 77.5px;
 }
 
 @media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
 }
