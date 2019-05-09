@@ -541,7 +541,7 @@ body {
 }
 
 .side-nav li.is-active {
-    color: #eb1e23;
+    color: #ff5500;
     -webkit-transition: color .4s ease-in-out;
     transition: color .4s ease-in-out
 }
@@ -654,7 +654,7 @@ body {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #eb1e23
+    fill: #ff5500
 }
 
 .intro--banner img {
@@ -847,7 +847,8 @@ body {
 
 .work--lockup .slider--item-title {
     margin-top: 10px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    text-align: center
 }
 
 .slider--item-left .slider--item-title {
@@ -861,7 +862,8 @@ body {
 .work--lockup .slider--item-description {
     display: none;
     max-width: 250px;
-    margin: 0 auto
+    margin: 0 auto;
+    text-align: center
 }
 
 .work--lockup .slider--item-image {
@@ -1197,7 +1199,7 @@ body {
 .contact--lockup .modal {
     padding: 45px 45px;
     text-align: center;
-/*        background-color: #eb1e23;*/
+/*        background-color: #ff5500;*/
 /*        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.75)*/
 }
 
@@ -1311,7 +1313,7 @@ body {
     line-height: 50px;
     font-size: 21px;
     background-color: #191919;
-    color: #eb1e23;
+    color: #ff5500;
     border: none;
     border-radius: 0
 }
@@ -1615,7 +1617,7 @@ body {
 }
 
 .outer-nav > li:hover {
-    color: #eb1e23;
+    color: #ff5500;
 }
 
 .outer-nav > li.is-active::before {
@@ -1672,12 +1674,18 @@ h2 {
     text-align: left
 }
 
-p {
-    font-weight: 400;
+h3 {
+    margin: 20px 0 10px 0;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 21px;
+    text-align: left
 }
 
-.outer-nav, .intro h2 {
+p {
+    font-weight: 400;
     text-align: left;
+    margin: 0;
 }
 
 /* Overlay */
@@ -1720,6 +1728,10 @@ p {
   top: 20px;
   right: 45px;
   font-size: 60px;
+}
+
+.work-detail {
+    margin-bottom: 155px;
 }
 
 @media screen and (max-height: 450px) {

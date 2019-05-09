@@ -51,6 +51,14 @@ img {
     height: auto;
 }
 
+#img-responsive {
+    padding-bottom: 80px;
+}
+
+#img-responsive-no-caption {
+    padding-bottom: 155px;
+}
+
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -214,7 +222,8 @@ img {
     }
 
     .col-md-7 {
-        width: 58.33333%;
+/*        width: 58.33333%;*/
+        width: 75%
     }
 
     .col-md-8 {
